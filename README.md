@@ -1,8 +1,8 @@
 # Budgetize
 
 ## Overview
--A **React web application** that assists users to better understand their spending habits.
--Gain insights regarding your monthly income and **develop a budget.**
+- A **React web application** that assists users to better understand their spending habits.
+- Gain insights regarding your monthly income and **develop a budget.**
 
 ## Tools/Technologies Used
 - [React](https://react.dev/)
