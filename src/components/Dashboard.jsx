@@ -5,7 +5,7 @@ import Visuals from "./Visuals"
 
 export default function Dashboard() {
     return (
-        <section className="flex flex-col lg:grid grid-cols-5 grid-rows-4 gap-4">
+        <section className="flex flex-col lg:grid grid-cols-5 grid-rows-4 gap-4 pb-12">
             <IncomeCard />
             <BreakdownCard />
             <RemainingCard />
