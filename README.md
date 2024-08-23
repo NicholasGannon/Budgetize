@@ -7,6 +7,7 @@
 ## Tools/Technologies Used
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Chart.js](https://www.chartjs.org/)
 
 ## React + Vite
 
