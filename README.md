@@ -9,7 +9,7 @@
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Overview
-- A **React web application** that assists users to better understand their spending habits.
+- A **React web application** that assists users to better understand and visualize their spending habits.
 - Gain insights regarding your monthly income and **develop a budget.**
 - This [application](https://use-budgetize.vercel.app/) is still **in-progress,** and will eventually feature more functionality.
 
