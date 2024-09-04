@@ -1,7 +1,7 @@
 import 'chart.js/auto';
 import { Doughnut } from "react-chartjs-2";
 
-export default function Visuals({ chartData }) {
+export default function Visuals() {
     const month = new Date().toLocaleString('default', { month: 'long' });
     const year = new Date().getFullYear();
 
@@ -10,9 +10,9 @@ export default function Visuals({ chartData }) {
             <h2 className="text-2xl font-medium">{month}</h2>
             <p className="text-base font-light">{year}</p>
             <div className='max-w-xl mx-auto'>
-                <Doughnut
-                    data={chartData}
-                />
+                {/* <Doughnut
+                    
+                /> */}
             </div>
         </div>
     )

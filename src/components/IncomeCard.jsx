@@ -1,8 +1,4 @@
-export default function IncomeCard({setIncome}) {
-    const handleChange = (e) => {
-        setIncome(Number(e.target.value));
-    }
-
+export default function IncomeCard() {
     return(
         <div className="flex flex-col gap-4 outline outline-1 outline-gray-200 p-4 rounded font-Raleway" style={{gridArea: "1 / 1 / 2 / 3"}}>
             <h2 className="text-2xl font-medium">Income</h2>
@@ -11,7 +7,6 @@ export default function IncomeCard({setIncome}) {
                 className="text-base indent-1 outline outline-1 outline-gray-300 rounded-sm" 
                 type="number" 
                 placeholder="Enter amount here"
-                onChange={handleChange}
             />
         </div>
     )
