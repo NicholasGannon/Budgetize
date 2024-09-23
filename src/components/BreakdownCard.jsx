@@ -11,6 +11,7 @@ export default function BreakdownCard({ breakdown, setBreakdown }) {
             <input
                 className="text-base indent-1 outline outline-1 outline-gray-300 rounded-sm focus:outline-gray-400"
                 type="number"
+                inputMode="numeric"
                 placeholder="Enter amount here"
                 value={breakdown}
                 onChange={handleInputChange}

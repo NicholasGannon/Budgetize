@@ -10,7 +10,8 @@ export default function IncomeCard({ income, setIncome }) {
             <p className="text-base font-light">In the field below, please enter your estimated total monthly income (in USD):</p>
             <input 
                 className="text-base indent-1 outline outline-1 outline-gray-300 rounded-sm focus:outline-gray-400" 
-                type="number" 
+                type="number"
+                inputMode="numeric"
                 placeholder="Enter amount here"
                 value={income}
                 onChange={handleInputChange}
